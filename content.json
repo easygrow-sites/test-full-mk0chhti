@@ -1,0 +1,103 @@
+{
+  "business": {
+    "name": "Test Business",
+    "tagline": "Testing the website generator",
+    "phone": "1300 123 456",
+    "email": "test@example.com",
+    "address": "123 Test St, Brisbane",
+    "suburb": "Brisbane",
+    "city": "Brisbane",
+    "state": "QLD",
+    "postcode": "4000",
+    "country": "Australia",
+    "service": "Testing",
+    "serviceSlug": "testing",
+    "abn": "12 345 678 901",
+    "established": 2020,
+    "openingHours": {
+      "monday": "9:00 AM - 5:00 PM",
+      "tuesday": "9:00 AM - 5:00 PM",
+      "wednesday": "9:00 AM - 5:00 PM",
+      "thursday": "9:00 AM - 5:00 PM",
+      "friday": "9:00 AM - 5:00 PM",
+      "saturday": "Closed",
+      "sunday": "Closed"
+    },
+    "socialMedia": {
+      "facebook": "",
+      "instagram": "",
+      "google": ""
+    }
+  },
+  "services": [
+    {
+      "title": "Test Service",
+      "slug": "test-service",
+      "shortDescription": "A test service",
+      "description": "Testing the website generator",
+      "price": "From $100",
+      "duration": "60 mins",
+      "icon": "star",
+      "image": "https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=800&h=600&fit=crop",
+      "features": [
+        "Feature 1",
+        "Feature 2"
+      ]
+    }
+  ],
+  "serviceAreas": [
+    {
+      "name": "Brisbane",
+      "slug": "brisbane",
+      "description": "Serving Brisbane"
+    }
+  ],
+  "team": [],
+  "testimonials": [],
+  "faq": [],
+  "about": {
+    "title": "About Test Business",
+    "story": "This is a test.",
+    "mission": "To test.",
+    "values": [
+      {
+        "title": "Quality",
+        "description": "We test quality"
+      }
+    ],
+    "features": [
+      "Test feature"
+    ]
+  },
+  "gallery": [
+    {
+      "image": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=600&h=600&fit=crop",
+      "alt": "Test",
+      "category": "Test"
+    }
+  ],
+  "seo": {
+    "siteName": "Test Business",
+    "siteUrl": "https://test.com",
+    "title": "Test Business",
+    "description": "Testing",
+    "keywords": [
+      "test"
+    ]
+  },
+  "schema": {
+    "type": "LocalBusiness",
+    "priceRange": "$$"
+  },
+  "colors": {
+    "primary": "#be185d",
+    "primaryLight": "#ec4899",
+    "secondary": "#1f2937",
+    "accent": "#f59e0b"
+  },
+  "cta": {
+    "primary": "Book Now",
+    "secondary": "Call Us",
+    "consultation": "Free Quote"
+  }
+}
